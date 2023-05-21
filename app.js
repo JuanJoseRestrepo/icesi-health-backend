@@ -8,6 +8,7 @@ const util = require('util')
 
 //var initDatabase = require('./scripts/init_database');
 var bootstrapDB = require('./scripts/bootstrapDB.js');
+
 var database = require('./scripts/database.js');
 
 
