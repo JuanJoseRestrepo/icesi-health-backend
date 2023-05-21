@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "start": "node app.js",
-    "test:unit": "jest test/*.test.js"
+    "test:unit": "jest test/main.test.js"
   },
   "dependencies": {
     "@cloudant/cloudant": "^4.2.3",
@@ -19,6 +19,9 @@
     "node": "10.x"
   },
   "devDependencies": {
-    "jest": "^29.5.0"
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "jest": "^29.5.0",
+    "mocha": "^10.2.0"
   }
 }
