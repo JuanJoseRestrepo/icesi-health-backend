@@ -17,5 +17,8 @@
   "author": "Sai Vennam",
   "engines": {
     "node": "10.x"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
