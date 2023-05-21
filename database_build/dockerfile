@@ -1,0 +1,4 @@
+FROM couchdb:2.3.1
+
+# Expone el puerto 5984
+EXPOSE 5984
