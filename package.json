@@ -2,7 +2,8 @@
   "name": "nodejs-patientdb-cloudant",
   "version": "0.1.0",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test:unit": "jest test/*.test.js"
   },
   "dependencies": {
     "@cloudant/cloudant": "^4.2.3",
